@@ -11,15 +11,69 @@ nav ul li{
     margin:0;
     text-align:center;
 }
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    padding-right:230px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 90px 170px 1fr;
+}
 
 nav{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     position: sticky;
+    z-index: 1;
     top: 0;
     background-color: white;
-    padding:20px;
+    padding:0px;
     border-bottom: 1px solid  #999;
+    
 }
 
 header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
     font-size: 35px;
 }
+
+main{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 10px;
+    padding-top: 40px;
+
+}
+
+
+/*
+.cat-top { 
+    margin-bottom: -110px;
+}
+.cat-bottom {    
+    float: right;
+    margin-top: -120px;
+}
+*/
+
+//background-color: #FFBC47;//
+
