@@ -43,7 +43,10 @@ header{
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    font-size: 35px;
+    font-size: 25px;
+    color:grey;
+    padding-bottom: 80px;
+    margin:0;
 }
 
 main{
@@ -76,4 +79,16 @@ footer{
 */
 
 //background-color: #FFBC47;//
+
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 100px;
+}
+// 상위 요소에 영향 받지 않음
+
+
+
+
 
