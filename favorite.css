@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0px;
+}
+
+.container{
+    display:grid;
+    grid-template-rows: 80px 200px 1fr;
+    padding:0;
+}
+
+
+nav{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: fixed;
+    background-color: #393941;
+    width:100%;
+    }
+nav ul li{
+    list-style:none;
+    float: left;   /* float은 기본적으로 inline 적용 */
+    padding:15px;
+    padding-left: 30px;    
+    font-size: 25px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    text-decoration: underline;
+}
+#fb{
+    list-style:none;
+    float: right;
+    padding-right:40px;
+}
+#ins{
+    list-style:none;
+    float: right;
+    padding-right:5px;
+}
+
+header{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 35px;
+    color:grey;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+.script{
+    font-size: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+main{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:120px;
+    
+}
+figure {
+    display: inline;
+    text-align: center;
+}
+figure figcaption{
+    display: inline;
+    text-align: center;
+    color:white;
+}
+.img a{
+    cursor: pointer;
+}
+.software{
+    margin-top: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+img{
+    padding:10px;
+}
+
+table{
+    border-spacing: 20px;
+    border-collapse: separate;
+    border: white;
+    margin-left: auto; margin-right: auto;
+}
+/*
+.cat-top { 
+    margin-bottom: -110px;
+}
+.cat-bottom {    
+    float: right;
+    margin-top: -120px;
+}
+*/
+
+
+
