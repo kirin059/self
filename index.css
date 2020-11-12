@@ -64,18 +64,21 @@ main{
     grid-row-start: 3;
     grid-row-end: 4;
 }
-.img1{
+.mypic{
     display:block; 
     width:300px; 
     text-align:center;
     margin: auto;
-    padding-top:120px;
+    padding-top:70px;
 }
 .icon{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 25px;
+}
+.profile {
+    font-size:23px;
 }
 h2{
     font-size: 38px;
@@ -83,15 +86,6 @@ h2{
 }
 
 
-/*
-.cat-top { 
-    margin-bottom: -110px;
-}
-.cat-bottom {    
-    float: right;
-    margin-top: -120px;
-}
-*/
 
 
 

@@ -63,33 +63,26 @@ main{
     grid-row-start: 3;
     grid-row-end: 4;
 }
-.img{
+.list{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top:120px;
-    
+    padding-top:55px;
 }
-figure {
-    display: inline;
-    text-align: center;
-}
-figure figcaption{
-    display: inline;
-    text-align: center;
-    color:white;
-}
-.img a{
+.list a{
     cursor: pointer;
+    padding-right:60px;
+    padding-left:60px;
 }
+
 .software{
     margin-top: 120px;
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
 }
-img{
-    padding:10px;
+.software img{
+    padding:20px;
 }
 
 table{
@@ -97,6 +90,15 @@ table{
     border-collapse: separate;
     border: white;
     margin-left: auto; margin-right: auto;
+}
+td{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:0;
+}
+td img {
+    width: 240px;
+    height: 240px;
 }
 /*
 .cat-top { 
