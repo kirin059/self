@@ -71,15 +71,14 @@ main{
     margin: auto;
     padding-top:70px;
 }
-.icon{
+.icon, .profile{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-}
-.profile {
     font-size:23px;
 }
+
 h2{
     font-size: 38px;
     text-align: center;
@@ -88,4 +87,54 @@ h2{
 
 
 
-
+@media(max-width: 700px) {
+    .container{
+        grid-template-rows: 40px 150px 1fr;
+        padding:0;
+    }
+    nav ul li{    
+        font-size: 15px;
+    }
+    #fb{
+        padding-right:60px;
+        padding-bottom: 40px;
+        width: 10px;
+        height: 10px;
+    }
+    #ins{
+        padding-right:15px;
+        padding-bottom: 40px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    header{
+        font-size: 25px;
+        color:grey;
+        padding-bottom: 15px;
+        padding-top: 25px;
+    }
+    .mypic{
+        display:block; 
+        width:180px; 
+        text-align:center;
+        margin: auto;
+        padding-top:45px;
+    }
+    .icon, .profile{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15px;
+        font-size:20px;
+    }
+    strong{
+        font-size:25px;
+    }
+    h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .profile > span{
+        font-size:8px;
+    }
