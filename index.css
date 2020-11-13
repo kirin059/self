@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;900&display=swap');
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0px;
+    font-family: 'Heebo', sans-serif;
 }
 
 .container{
@@ -58,6 +61,7 @@ header{
     font-size: 30px;
     padding-top:10px;
     padding-bottom:10px;
+    font-family: 'Dosis', sans-serif;
 }
 
 main{
