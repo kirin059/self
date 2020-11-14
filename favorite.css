@@ -33,9 +33,14 @@ nav ul a{
     text-decoration: none;
     color: white;
 }
+nav ul a:visited { color :lightgrey; 
+} 
 nav ul a:hover{
     text-decoration: underline;
 }
+nav ul a:active { 
+    color: purple; 
+} 
 #fb{
     list-style:none;
     float: right;
