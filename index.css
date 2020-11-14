@@ -40,6 +40,9 @@ nav ul a:hover{
 nav ul a:active { 
     color: purple; 
 } 
+
+/* 질문. 두번째 li>a는 왜 두번클릭할때 a:active가 적용되는 것일까 */
+
 #fb{
     list-style:none;
     float: right;
@@ -86,13 +89,10 @@ main{
     padding-top: 25px;
     font-size:23px;
 }
-
 h2{
     font-size: 38px;
     text-align: center;
 }
-
-
 
 
 @media(max-width: 800px) {
